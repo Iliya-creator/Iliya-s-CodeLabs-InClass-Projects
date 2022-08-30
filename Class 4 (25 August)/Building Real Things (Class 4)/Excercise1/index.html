@@ -3,32 +3,36 @@ Aim: Create a button that changes the background and text color randomly when cl
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="main.js" defer></script>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <!--  Title  -->
-    <div id="myTitleDiv">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="containingAll">
+      <!--  Title  -->
+      <div id="myTitleDiv">
         <h1>This is an exercise</h1>
-    </div>
+      </div>
 
-    <!--  Exercise Explanation   -->
-    <div id="myTitleDiv">
-        <p>If you click on the button below, 
-            it will change both the page's background color as well as the text color of the page.</p>
+      <!--  Exercise Explanation   -->
+      <div id="myTitleDiv">
+        <p>
+          If you click on the button below, it will change both the page's
+          background color as well as the page's text color.
+        </p>
         <h3>Try!</h3>
-    </div>
+      </div>
 
-    <!--  Button  -->
-    <div id="myButtonDiv">
-        <button onclick="changeBackgroundAndTextColors()">Click me to randomly 
-            change the page background and page text colors</button>
+      <!--  Button  -->
+       <div id="myButtonDiv"> 
+        <button onclick="changeBackgroundAndTextColors()">
+          Click me to randomly change the page background and page text colors
+        </button>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
