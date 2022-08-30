@@ -1,0 +1,18 @@
+What are data types?
+The types of information that one can work with in JS. You get complex (i.e. non-primitive data types) 
+data types that are composed of more simple data types, which are called primitives. Examples of 
+primitives include strings and numbers and examples of non-primitives are objects and arrays.
+
+What are operators used for?
+Operators are used to do operations on data types. You get mathematical operators like addition and 
+subtraction and then Boolean operators, which are for example greater than, less than and strict equals, 
+and non-strict equals. 
+
+What are conditional statements?
+Conditional statements are statements that only execute based on the truth value of a test statement. 
+First, the conditions are tested, and then if they are found to be true, the consequent block of code 
+executes.
+
+What are loops?
+Loops are blocks of code that are executed a number of times, over and over until conditions for termination are met. You get different types of 
+loops, however they all work in a similar fashion. 
