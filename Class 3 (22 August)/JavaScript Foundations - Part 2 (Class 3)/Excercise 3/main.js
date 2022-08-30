@@ -7,15 +7,23 @@ let obj2 = { a: "Apple", b: "Microsoft", c: "Google" };
 let obj3 = { key1: true, key2: false, key3: undefined };
 
 function keysAndValues(obj) {
-  let objArr = Object.entries();
-  let sortedObjArr = objArr.sort((a, b) => b[0] - a[0]);
-return obj;
+  let objArr = Object.entries(obj);
+  let sortedObjArr = objArr.sort(function (a, b) {
+    return a[0].localeCompare(b[0]);
+  });
+
+  let finArr = [[], []];
+
+  sortedObjArr.forEach((element) => {
+    finArr[0].push(element[0]);
+    finArr[1].push(element[1]);
+  });
+  return finArr;
 }
 
 console.log(keysAndValues(obj1));
 console.log(keysAndValues(obj2));
 console.log(keysAndValues(obj3));
-
 
 // // +++++++++++++++++++++++++++++      Examples      ++++++++++++++++++++++++++++
 
