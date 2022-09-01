@@ -9,7 +9,22 @@ Aim: Create a working JavaScript Clock or any other project we created today. --
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Class 4 Exercise</title>
+    <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Here we have a stopwatch built by Iliya Matveyuk! Enjoy!</h1>
+
+    <div id="stopWatch">
+      <div id="watch">
+        <span id="minutes"></span><span>:</span>
+        <span id="seconds"></span>
+      </div>
+      <div id="StpWchButtons">
+        <button id="start" onclick="start()">Start</button>
+        <button id="stop" onclick="stop()">Stop</button>
+        <button id="reset" onclick="resetFunc()">Reset</button>
+      </div>
+    </div>
+  </body>
 </html>
